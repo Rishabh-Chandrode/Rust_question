@@ -1,6 +1,6 @@
 fn kth_smallest(arr: &[i32], k: usize) -> Option<i32> {
     if k > arr.len() {
-        return None; // k is out of bounds
+        return None; 
     }
     
     let mut sorted_arr = arr.to_vec();
